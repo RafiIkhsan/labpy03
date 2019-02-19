@@ -1,7 +1,7 @@
 **labpy03**
 
 
-**latihan1**
+# latihan1
 ```python
 import random
 n=str(input("masukan nilai N: "))
@@ -21,7 +21,7 @@ Perulangan while disebut uncounted loop (perulangan yang tak terhitung), yaitu p
 ![image](https://user-images.githubusercontent.com/46708621/52990980-2468ad00-343d-11e9-9c98-ef481f34b7b3.png)
 
 
-**latihan2**
+# latihan2
 ```python
 max=0
 while True:
@@ -42,7 +42,7 @@ Perulangan while disebut uncounted loop (perulangan yang tak terhitung), yaitu p
 ![screenshot 27](https://user-images.githubusercontent.com/46708621/52991007-4d893d80-343d-11e9-9cc3-a10d4185b56a.png)
 
 
-**program1**
+# program1
 ```a = 100000000
 
 for x in range(1,9):
@@ -68,3 +68,4 @@ Perulangan for disebut juga sebagai counted loop (perulangan yang terhitung), ya
 - [x] Menggunakan kondisional if
 Seperti halnya bahasa pemrograman yang lain, bahasa python juga mempunyai percabangan berupa if yaitu bila suatu kondisi tertentu tercapa maka apa yang harus dilakukan. Dengan fungsi ini kita bisa menjalankan suatu perintah dalam kondisi tertentu.
 # output :
+![screenshot 28](https://user-images.githubusercontent.com/46708621/52991024-5e39b380-343d-11e9-85d9-191ab7f1a355.png)
