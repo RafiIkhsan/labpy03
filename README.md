@@ -1,4 +1,6 @@
 **labpy03**
+
+
 **latihan1**
 ```python
 import random
@@ -18,6 +20,7 @@ Perulangan while disebut uncounted loop (perulangan yang tak terhitung), yaitu p
 # output :
 ![image](https://user-images.githubusercontent.com/46708621/52990980-2468ad00-343d-11e9-9c98-ef481f34b7b3.png)
 
+
 **latihan2**
 ```python
 max=0
@@ -35,4 +38,33 @@ print("bilangan terbesar:",max)
 - [x] Perulangan while
 Perulangan while disebut uncounted loop (perulangan yang tak terhitung), yaitu perulangan yang dilakukan berdasarkan kondisi tertentu selama nilai kondisi bernilai TRUE.
 - [x] Break, pernyataan break digunakan untuk menghentikan proses perulangan pada kondisi tertentu.
+# output :
+![screenshot 27](https://user-images.githubusercontent.com/46708621/52991007-4d893d80-343d-11e9-9cc3-a10d4185b56a.png)
+
+
+**program1**
+```a = 100000000
+
+for x in range(1,9):
+    if(x>=1 and x<=2):
+        b =a*0
+        print("Laba Bulan ke-",x," :",b)
+    if(x>=3 and x<=4):
+        c=a*0.1
+        print("Laba Bulan ke-",x," :",c)
+    if(x>=5 and x<=7):
+        d=a*0.5
+        print("Laba Bulan ke-",x," :",d)
+    if(x==8):
+        e=a*0.2
+        print("Laba Bulan ke-",x," :",e)
+total = b+b+c+c+d+d+d+e
+print("\ntotal : ", total)    
+```
+
+# penjelasan algoritma
+- [x] Perulangan for
+Perulangan for disebut juga sebagai counted loop (perulangan yang terhitung), yaitu perintah yang dieksekusi secara berulang berdasarkan jumlah perulangan tertentu.
+- [x] Menggunakan kondisional if
+Seperti halnya bahasa pemrograman yang lain, bahasa python juga mempunyai percabangan berupa if yaitu bila suatu kondisi tertentu tercapa maka apa yang harus dilakukan. Dengan fungsi ini kita bisa menjalankan suatu perintah dalam kondisi tertentu.
 # output :
