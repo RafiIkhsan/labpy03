@@ -1,4 +1,4 @@
-**labpy03**
+# labpy03
 
 
 # latihan1
@@ -43,7 +43,8 @@ Perulangan while disebut uncounted loop (perulangan yang tak terhitung), yaitu p
 
 
 # program1
-```a = 100000000
+``` python
+a = 100000000
 
 for x in range(1,9):
     if(x>=1 and x<=2):
